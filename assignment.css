@@ -1,0 +1,86 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+header {
+  width: 100%;
+  padding: 20px;
+  background-color: black;
+  color: #ffffff;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  font-size: xx-large;
+  font-family:'GmarketSansMedium';
+  }
+
+nav {
+  background-color: #829967;
+  height: auto;
+  width: 100%;
+  padding: 15px;
+}
+
+/* flex 개념 정확히 숙지해볼 것! */
+
+ul {
+  list-style: none;
+  display: flex; 
+  justify-content: flex-end
+}
+
+h2{
+  margin-top: auto;
+}
+
+li a {
+  display: 'inline-flexbox';
+  color: #E1DDD3;
+}
+
+ul > li {
+  margin: 10px 10px;
+}
+
+article {
+  width: 100%;
+  color: black;
+}
+
+section {
+  width: 100%;
+  padding: 20px;
+}
+
+section:nth-child(1) {   /* 부모 안의 모든 요소 중 (1)번째 요소 */
+  height: 420px; /* 높이를 바꿔 보세요!*/
+  background-color: #829967 ;
+}
+
+section:nth-child(2) {   /* 부모 안의 모든 요소 중 (2)번째 요소 */
+  height: 400px; /* 높이를 바꿔 보세요!*/
+  background-color: #829967;
+  /* 배경 색을 바꿔보세요!! */
+}
+
+footer {
+  background-color: #829967;
+  width: 100%;
+  padding: 3px;
+  text-align: left;
+}
