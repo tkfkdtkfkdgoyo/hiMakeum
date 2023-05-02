@@ -23,14 +23,14 @@ body{
     font-weight: 300;
     font-family: 'GmarketSansMedium';
     font-size: 20px;
-    line-height: normal;
+    line-height:100%;
     font-style: italic;
     color: azure;
 }
 
 .list_img {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     margin: 6vh 6vh;
     margin-bottom: 80px;
 }
